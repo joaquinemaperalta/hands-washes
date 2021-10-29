@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="proyecto(nombre indefinido)" company="" webLink="http://" view-date="2021-04-26" view-index="0" gantt-divider-location="822" resource-divider-location="300" version="3.1.3100" locale="es_ES">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="332" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="236" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="235" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#ff00cc #ccffcc #000000 #3333ff #00cccc #ff9900 #9933ff #006666 #f4f4f4]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="NEUTRAL">
+            <![CDATA[New Year's Day]]>
+        </date>
+        <date year="" month="3" date="24" type="NEUTRAL">
+            <![CDATA[Truth and Justice Memorial Day]]>
+        </date>
+        <date year="" month="4" date="2" type="NEUTRAL">
+            <![CDATA[Malvinas Day]]>
+        </date>
+        <date year="" month="5" date="1" type="NEUTRAL">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="" month="5" date="25" type="NEUTRAL">
+            <![CDATA[May Day Revolution]]>
+        </date>
+        <date year="" month="7" date="9" type="NEUTRAL">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="" month="12" date="8" type="NEUTRAL">
+            <![CDATA[Immaculate Conception Day]]>
+        </date>
+        <date year="" month="12" date="25" type="NEUTRAL">
+            <![CDATA[Christmas Day]]>
+        </date>
+        <date year="2020" month="2" date="24" type="NEUTRAL" color="#808080">
+            <![CDATA[Carnival Monday]]>
+        </date>
+        <date year="2020" month="2" date="25" type="NEUTRAL">
+            <![CDATA[Carnival Tuesday]]>
+        </date>
+        <date year="2020" month="3" date="23" type="NEUTRAL">
+            <![CDATA[Truth and Justice Memorial Bridge Holiday]]>
+        </date>
+        <date year="2020" month="4" date="10" type="NEUTRAL">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2020" month="6" date="15" type="NEUTRAL">
+            <![CDATA[Martin Miguel de Guemes Day]]>
+        </date>
+        <date year="2020" month="6" date="20" type="NEUTRAL">
+            <![CDATA[National Flag Day]]>
+        </date>
+        <date year="2020" month="7" date="10" type="NEUTRAL">
+            <![CDATA[Independence Day Bridge Holiday]]>
+        </date>
+        <date year="2020" month="8" date="17" type="NEUTRAL">
+            <![CDATA[San Martin's Day]]>
+        </date>
+        <date year="2020" month="10" date="12" type="NEUTRAL">
+            <![CDATA[Day of respect for cultural diversity]]>
+        </date>
+        <date year="2020" month="11" date="23" type="NEUTRAL">
+            <![CDATA[National Sovereignty Day]]>
+        </date>
+        <date year="2020" month="12" date="7" type="NEUTRAL">
+            <![CDATA[Immaculate Conception Bridge Holiday]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="6" name="identificar idea para proyecto" color="#8cb6ce" meeting="false" start="2021-03-24" duration="7" complete="7" thirdDate="2021-03-30" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" name="analizar si la idea es viable o no" color="#8cb6ce" meeting="false" start="2021-03-31" duration="7" complete="0" thirdDate="2021-03-12" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="evaluacion de oportunidades para el proyecto" color="#8cb6ce" meeting="false" start="2021-04-07" duration="14" complete="0" thirdDate="2021-03-12" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="evaluacion de futuros problemas y supuestos" color="#8cb6ce" meeting="false" start="2021-03-31" duration="4" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="solucion de futuros problemas y supuestos" color="#8cb6ce" meeting="false" start="2021-04-04" duration="4" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="identificar los objetivos del proyecto" color="#8cb6ce" meeting="false" start="2021-04-07" duration="4" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true"/>
+        <task id="27" name="estudio de mercado" color="#ff00cc" meeting="false" start="2021-04-21" duration="60" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="identificacion de competencias." color="#ff00cc" meeting="false" start="2021-04-21" duration="4" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="comparacion de precio/calidad entre competencias" color="#ff00cc" meeting="false" start="2021-04-25" duration="4" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" name="comparacion de nuestro producto con la competencia" color="#ff00cc" meeting="false" start="2021-04-29" duration="3" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true">
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="49" name="identificacion de componentes para proyecto" color="#ff00cc" meeting="false" start="2021-05-02" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="50" name="evaluacion de costos de componentes" color="#ff00cc" meeting="false" start="2021-05-09" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <depend id="64" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="51" name="identificacion de los proveedores" color="#ff00cc" meeting="false" start="2021-05-16" duration="11" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="52" name="investigacion acerca de los proveedores" color="#ff00cc" meeting="false" start="2021-05-27" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="53" name="comparacion entre proveedores" color="#ff00cc" meeting="false" start="2021-06-03" duration="4" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="54" name="seleccion de proveedores" color="#ff00cc" meeting="false" start="2021-06-07" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="64" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="64" name="analisis de un posible presupuesto para producto" color="#ff00cc" meeting="false" start="2021-06-14" duration="4" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="55" name="precio final de producto" color="#ff00cc" meeting="false" start="2021-06-18" duration="2" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="59" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="63" name="analisis para la realizacion de formulario" color="#ff00cc" meeting="false" start="2021-05-02" duration="4" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="66" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="66" name="realizacion de formulario" color="#ff00cc" meeting="false" start="2021-05-06" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="62" name="comparacion de posibles modificaciones del producto a raiz del formulario" color="#ff00cc" meeting="false" start="2021-05-13" duration="7" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="seleccion definitiva de componentes para producto" color="#006666" meeting="false" start="2021-06-20" duration="4" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="60" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="60" name="compra de componentes" color="#006666" meeting="false" start="2021-06-24" duration="28" complete="0" thirdDate="2021-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="79" name="realizacion del circuito virtualmente" color="#ff9900" meeting="false" start="2021-06-20" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="80" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="80" name="simulacion virtual del circuito" color="#ff9900" meeting="false" start="2021-06-27" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="81" name="realizacion del circuito en protoboards" color="#ff9900" meeting="false" start="2021-07-22" duration="21" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="133" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="82" name="realizacion de prototipo de estuche para el producto" color="#00cccc" meeting="false" start="2021-07-19" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="83" name="realizacion del estuche en editor  para impresion 3D" color="#00cccc" meeting="false" start="2021-07-26" duration="10" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="84" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="84" name="modelo final del estuche en 3D" color="#00cccc" meeting="false" start="2021-08-05" duration="5" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="85" type="2" difference="0" hardness="Strong"/>
+            <depend id="134" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="85" name="impresion del estuche" color="#00cccc" meeting="false" start="2021-08-10" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true"/>
+        <task id="86" name="investigacion de arduino" color="#000000" meeting="false" start="2021-08-17" duration="21" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="87" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="87" name="realizacion de codigo en arduino" color="#000000" meeting="false" start="2021-09-07" duration="14" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="88" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="88" name="simulacion del codigo en arduino" color="#000000" meeting="false" start="2021-09-21" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="89" type="2" difference="0" hardness="Strong"/>
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="89" name="codigo definido para el producto" color="#000000" meeting="false" start="2021-09-28" duration="10" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <depend id="134" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="90" name="cargar codigo a la placa" color="#000000" meeting="false" start="2021-10-08" duration="4" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true">
+            <depend id="133" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="133" name="realizacion del circuito en la placa" color="#000000" meeting="false" start="2021-10-12" duration="21" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="134" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="134" name="revision del codigo,circuito y estuche en condiciones" color="#ccffcc" meeting="false" start="2021-11-02" duration="10" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="135" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="135" name="montaje del circuito al estuche del producto" color="#ccffcc" meeting="false" start="2021-11-12" duration="7" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="136" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="136" name="evaluacion del prodcuto funcionando" color="#ccffcc" meeting="false" start="2021-11-19" duration="7" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="137" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="137" name="retocar el producto" color="#ccffcc" meeting="false" start="2021-11-26" duration="7" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="138" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="138" name="producto terminado" color="#ccffcc" meeting="false" start="2021-12-03" duration="7" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
